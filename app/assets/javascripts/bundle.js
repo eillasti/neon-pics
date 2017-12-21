@@ -2053,10 +2053,6 @@ var _PopUp = __webpack_require__(72);
 
 var _PopUp2 = _interopRequireDefault(_PopUp);
 
-var _PicCompare = __webpack_require__(164);
-
-var _PicCompare2 = _interopRequireDefault(_PicCompare);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
@@ -8777,10 +8773,6 @@ var _reactModal = __webpack_require__(156);
 
 var _reactModal2 = _interopRequireDefault(_reactModal);
 
-var _PicCompare = __webpack_require__(164);
-
-var _PicCompare2 = _interopRequireDefault(_PicCompare);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -8833,7 +8825,6 @@ var PopUp = function (_Component) {
       return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(_PicCompare2.default, null),
         _react2.default.createElement(
           _button.Button,
           { color: 'success', size: 'large', onClick: this.handleOpenModal },
@@ -8852,7 +8843,6 @@ var PopUp = function (_Component) {
             null,
             'Choose picture you prefer'
           ),
-          _react2.default.createElement(_PicCompare2.default, null),
           _react2.default.createElement(
             _button.Button,
             { onClick: this.handleCloseModal },
@@ -13596,12 +13586,6 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 		window.ExecutionEnvironment = ExecutionEnvironment;
 	}
 })();
-
-/***/ }),
-/* 164 */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed: SyntaxError: Unterminated JSX contents (32:12)\n\n\u001b[0m \u001b[90m 30 | \u001b[39m      \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 31 | \u001b[39m        \u001b[33m<\u001b[39m\u001b[33mimg\u001b[39m src\u001b[33m=\u001b[39m{\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mstate\u001b[33m.\u001b[39mpicUrlsp[curPics[\u001b[35m0\u001b[39m]]} alt\u001b[33m=\u001b[39m\u001b[32m\"First pic\"\u001b[39m\u001b[33m>\u001b[39m \u001b[33m<\u001b[39m\u001b[33mimg\u001b[39m src\u001b[33m=\u001b[39m{\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mstate\u001b[33m.\u001b[39mpicUrlsp[curPics[\u001b[35m1\u001b[39m]]} alt\u001b[33m=\u001b[39m\u001b[32m\"Second pic\"\u001b[39m\u001b[33m>\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 32 | \u001b[39m      \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m    | \u001b[39m            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 33 | \u001b[39m    )\n \u001b[90m 34 | \u001b[39m  }\u001b[33m;\u001b[39m\n \u001b[90m 35 | \u001b[39m\u001b[0m\n");
 
 /***/ })
 /******/ ]);

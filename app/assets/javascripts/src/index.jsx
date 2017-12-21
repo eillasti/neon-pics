@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HWComponent from './HWComponent.jsx';
+import PopUp from './PopUp.jsx';
+import PicCompare from './PicCompare.jsx';
 
 function App() {
   return (
     <div>
-      <HWComponent />
+      <PopUp />
     </div>
   )
 }
